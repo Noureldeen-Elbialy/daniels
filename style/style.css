@@ -1,0 +1,232 @@
+.home{
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+.layer-home{
+    background-color: rgba(0, 0, 0, 0.7);
+    height:100%;
+}
+.navbar-brand{
+    font-size: 1.3rem;
+}
+.nav-link::after{
+    content: '';
+    width: 0%;
+    position:absolute;
+    bottom: 0;
+    left: 0.5rem;
+    height: 1.5px;
+    background-color: black;
+    transition: width 0.8s;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link:hover::after{
+    width: 70%;
+}
+.home-icon{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    border-radius: 50%;
+    color: white;
+}
+.home-content{
+    color: white;
+}
+.home-content h1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.home-content h1::after {
+    content: " ";
+    animation-name: typing;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {content: "L|";}
+    1.5% {content: "La|";}
+    3% {content: "Lar|";}
+    4.5% {content: "Larr|";}
+    6% {content: "Larry|";}
+    7.5% {content: "Larry |";}
+    9% {content: "Larry D|";}
+    10.5% {content: "Larry Da|";}
+    12% {content: "Larry Dan|";}
+    13.5% {content: "Larry Dani|";}
+    15% {content: "Larry Danie|";}
+    16.5% {content: "Larry Daniel|";}
+    18% {content: "Larry Daniels|";}
+    19.5% {content: "Larry Daniel|";}
+    21% {content: "Larry Danie|";}
+    22.5% {content: "Larry Dani|";}
+    24% {content: "Larry Dan|";}
+    25.5% {content: "Larry Da|";}
+    27% {content: "Larry D|";}
+    28.5% {content: "Larry |";}
+    30% {content: "Larry|";}
+    31.5% {content: "Larr|";}
+    33% {content: "Lar|";}
+    34.5% {content: "La|";}
+    36% {content: "L|";}
+    37.5% {content: "|";}
+    39% {content: "|";}
+    40.5% {content: "D|";}
+    42% {content: "De|";}
+    43.5% {content: "Dev|";}
+    45% {content: "Deve|";}
+    46.5% {content: "Devel|";}
+    48% {content: "Develo|";}
+    49.5% {content: "Develop|";}
+    51% {content: "Develope|";}
+    52.5% {content: "Developer|";}
+    54% {content: "Develope|";}
+    55.5% {content: "Develop|";}
+    57% {content: "Develo|";}
+    58.5% {content: "Devel|";}
+    60% {content: "Deve|";}
+    61.5% {content: "Dev|";}
+    63% {content: "De|";}
+    64.5% {content: "D|";}
+    66.5% {content: "|";}
+    68% {content: "D|";}
+    69.5% {content: "De|";}
+    71% {content: "Des|";}
+    72.5% {content: "Desi|";}
+    74% {content: "Desig|";}
+    75.5% {content: "Design|";}
+    77% {content: "Designe|";}
+    78.5% {content: "Designer|";}
+    80% {content: "Designe|";}
+    81.5% {content: "Design|";}
+    83% {content: "Desig|";}
+    84.5% {content: "Desi|";}
+    86% {content: "Des|";}
+    87.5% {content: "De|";}
+    89% {content: "D|";}
+    100% {content: "|";}
+}
+#services .card-icon{
+    width: 18%;
+    margin: auto;
+    background-color: #f1f1f1;
+}
+
+.bg.black{
+    background-color: black;
+}
+.progress-bar{
+    background-color: black;
+    color: white;
+}
+
+.ab-1{
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+.ab-1:hover{
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+}
+.ab-2{
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    transition-duration: 0.5s;
+}
+.ab-2:hover{
+    background-color: black;
+    color: white;    
+}
+
+
+#services .card:hover .card-icon{
+    color: white;
+    background-color: black;
+}
+#services .card{
+    width:20%;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.portfolio-nav{
+    text-align: center;
+}
+#Portfolio span{
+    color: black;
+    font-weight: 700;
+}
+.lay-portfolio{
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border:5px solid rgba(128, 128, 128, 0.08);
+    opacity: 0;
+    transition-duration: 1s;
+}
+.lay-portfolio:hover{
+    opacity: 1;
+}
+.portfolio-icon{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width:2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+}
+.portfolio-icon:hover{
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black;
+}
+#Testimonials #carouselExampleIndicators .c-btn{
+    background-color: #869791;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+}
+#Our-Blog .b-btn{
+    background-color: #869791;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+}
+#Our-Blog .card a{
+    color: black;
+}
+#Our-Blog img{
+    transition-duration: 0.5s;
+    
+}
+#Our-Blog img:hover{
+    transform: scale(1.1,1.1);
+}
+#Contact-Us .icon-contact{
+    background-color: #f4f4f4;
+    margin: auto;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+#Contact-Us .icon-contact:hover{
+    background-color: black;
+    color: white;
+}
+.last-p{
+    color: #748182;
+}
